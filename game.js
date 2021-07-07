@@ -145,9 +145,9 @@ var GameState = {
 		startScreen = game.add.sprite(0, 0, 'start');
 		startLogo = game.add.sprite(80, 100, 'robotstart')
 		startLogo.scale.setTo(1.1, 1.1)
-		startText = game.add.text(150, 500, "Press Space to Start", { fontSize: '50px', fill: 'white',align: 'center' });
-		startText2 = game.add.text(0, 350, "Your Dreams Awaits", { font: "papyrus",fontSize: '85px', fill: 'pink',align: 'center' });
-		startText3 = game.add.text(100, 450, "(Z) to jump, (X) to dash through obstacles", { fontSize: '30px', fill: 'white',align: 'center' });
+		startText = game.add.text(150, 500, "Press Space to Start", { fontSize: '50px', fill: 'black',align: 'center' });
+		startText2 = game.add.text(300, 350, "z- Jump", { fontSize: '50px', fill: 'black',align: 'center' });
+		startText3 = game.add.text(300, 450, "x- Dash", { fontSize: '50px', fill: 'black',align: 'center' });
 	},
 
 
